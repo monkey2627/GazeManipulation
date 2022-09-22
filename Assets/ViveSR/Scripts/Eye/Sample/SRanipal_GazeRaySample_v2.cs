@@ -22,6 +22,7 @@ namespace ViveSR
                 /// 获取凝视点方向，用于其他脚本调用
                 /// </summary>
                 public Vector3 GazeDirectionCombined;
+                public Vector3 GazeOriginCombined;
 
 
 
@@ -70,9 +71,12 @@ namespace ViveSR
                     }
 
                     GazeDirectionCombined = Camera.main.transform.TransformDirection(GazeDirectionCombinedLocal);
-                    GazeRayRenderer.SetPosition(0, Camera.main.transform.position - Camera.main.transform.up * 0.05f);
-                    GazeRayRenderer.SetPosition(1, Camera.main.transform.position + GazeDirectionCombined * LengthOfRay);
+                    //GazeOriginCombined = Camera.main.transform.TransformDirection(GazeOriginCombinedLocal);
+                    //GazeRayRenderer.SetPosition(0, Camera.main.transform.position - Camera.main.transform.up * 0.05f);
+                    //GazeRayRenderer.SetPosition(0, Camera.main.transform.position);
+                    //GazeRayRenderer.SetPosition(1, Camera.main.transform.position + GazeDirectionCombined * LengthOfRay);
                     
+
                 }
                 private void Release()
                 {

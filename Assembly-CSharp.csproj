@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,12 +53,10 @@
     <UnityVersion>2020.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_EyeFocusSample_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_Lip.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_EyeDataType_v2.cs" />
+    <Compile Include="Assets\GazeDemo\Scripts\Voxel.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_LipData_v1.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_LipShapeTableDrawer.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_EyeDataType_v1.cs" />
@@ -70,6 +68,7 @@
     <Compile Include="Assets\ViveSR\Scripts\Lip\Sample\SRanipal_MirrorCameraSample_Lip.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\DartBoard.cs" />
     <Compile Include="Assets\ViveSR\Scripts\SRWorks_Enums.cs" />
+    <Compile Include="Assets\GazeDemo\Scripts\RoomManagement.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_Eye.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Lip\SRanipal_Lip_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_GazeRaySample_v2.cs" />
@@ -91,6 +90,7 @@
     <Compile Include="Assets\ViveSR\Scripts\Eye\Sample\SRanipal_MirrorCameraSample_Eye_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_Eye_v2.cs" />
     <Compile Include="Assets\ViveSR\Scripts\Eye\SRanipal_EyeShapeTableDrawer.cs" />
+    <Compile Include="Assets\GazeDemo\Scripts\HandleInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ViveSR\Plugins\SRanipal.dll" />

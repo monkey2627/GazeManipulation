@@ -5,7 +5,7 @@ using ViveSR.anipal.Eye;
 using Valve.VR;
 using Valve.VR.Extras;
 
-namespace GazeHeat
+namespace GazeHeatDemo
 {
     /// <summary>
     /// 房间信息结构体
