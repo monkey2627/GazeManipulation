@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\SteamVR_Input_Editor.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache

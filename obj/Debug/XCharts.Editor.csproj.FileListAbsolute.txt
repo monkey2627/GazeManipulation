@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\XCharts.Editor.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\XCharts.Editor.csproj.CoreCompileInputs.cache

@@ -54,6 +54,43 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/ManipulateCatch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/ManipulateTranslate",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/StartHandleSample",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/SelectUserShoulder",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/SelectManipulateObject",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TranslateManipulateDemo",
+      "type": "boolean",
+      "requirement": "suggested"
+    },
+    {
+      "name": "/actions/default/in/ZoomInOutCamera",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/UpdateUserHead",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/UpdateUserFov",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -85,6 +122,27 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/baseline/in/xbrotate",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/baseline/in/yarotate",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/baseline/in/rightRocker",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/baseline/in/leftRocker",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/baseline/in/select",
+      "type": "boolean"
     }
   ],
   "action_sets": [
@@ -103,6 +161,10 @@
     {
       "name": "/actions/mixedreality",
       "usage": "single"
+    },
+    {
+      "name": "/actions/baseline",
+      "usage": "leftright"
     }
   ],
   "default_bindings": [
@@ -173,7 +235,10 @@
       "/actions/default/out/Haptic": "Haptic",
       "/actions/platformer/in/Jump": "Jump",
       "/actions/default/in/SnapTurnLeft": "Snap Turn (Left)",
-      "/actions/default/in/SnapTurnRight": "Snap Turn (Right)"
+      "/actions/default/in/SnapTurnRight": "Snap Turn (Right)",
+      "/actions/baseline/in/xbrotate": "xbrotate",
+      "/actions/baseline/in/yarotate": "yarotate",
+      "/actions/baseline/in/select": "select"
     }
   ]
 }

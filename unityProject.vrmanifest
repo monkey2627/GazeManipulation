@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.eyetrackingdemo.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "E:\\project_unity3d\\EyeTrackingDemo\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\admin\\Desktop\\EyeTrackingDemo\\EyeTrackingDemo\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "EyeTrackingDemo [Testing]"

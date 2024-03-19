@@ -1,0 +1,1 @@
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\Unity.TextMeshPro.Editor.csproj.CoreCompileInputs.cache

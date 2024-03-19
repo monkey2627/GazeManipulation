@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\Unity.TextMeshPro.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\Unity.TextMeshPro.csproj.CoreCompileInputs.cache

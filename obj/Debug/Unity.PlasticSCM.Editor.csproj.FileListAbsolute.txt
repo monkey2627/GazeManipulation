@@ -1,0 +1,2 @@
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\Unity.PlasticSCM.Editor.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\EyeTrackingDemo\EyeTrackingDemo\obj\Debug\Unity.PlasticSCM.Editor.csproj.CoreCompileInputs.cache

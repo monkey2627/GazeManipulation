@@ -113,6 +113,78 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean ManipulateCatch
+        {
+            get
+            {
+                return SteamVR_Actions.default_ManipulateCatch;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean ManipulateTranslate
+        {
+            get
+            {
+                return SteamVR_Actions.default_ManipulateTranslate;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean StartHandleSample
+        {
+            get
+            {
+                return SteamVR_Actions.default_StartHandleSample;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean SelectUserShoulder
+        {
+            get
+            {
+                return SteamVR_Actions.default_SelectUserShoulder;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean SelectManipulateObject
+        {
+            get
+            {
+                return SteamVR_Actions.default_SelectManipulateObject;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean TranslateManipulateDemo
+        {
+            get
+            {
+                return SteamVR_Actions.default_TranslateManipulateDemo;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean ZoomInOutCamera
+        {
+            get
+            {
+                return SteamVR_Actions.default_ZoomInOutCamera;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean UpdateUserHead
+        {
+            get
+            {
+                return SteamVR_Actions.default_UpdateUserHead;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean UpdateUserFov
+        {
+            get
+            {
+                return SteamVR_Actions.default_UpdateUserFov;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
